@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscrição JIES</title>
+
+    <style>
+      body {
+        font-family: "Times New Roman", serif;
+        margin: 10px;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        margin-top: 15px;
+      }
+
+      input[type="text"],
+      input[type="password"],
+      select,
+      textarea {
+        width: 250px;
+        padding: 4px;
+      }
+
+      textarea {
+        width: 400px;
+        height: 80px;
+      }
+
+      button {
+        margin-top: 15px;
+        padding: 5px 10px;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+
+      th,
+      td {
+        border: 1px solid #999;
+        padding: 5px 10px;
+      }
+
+      hr {
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Cadastro de Participantes do JIES</h1>
+
+    <form>
+      <label>Nome completo:</label>
+      <input type="text" name="nome" />
+
+      <label>Senha de acesso:</label>
+      <input type="password" name="senha" />
+
+      <label>Modalidade principal:</label>
+      <select>
+        <option>Selecione uma modalidade</option>
+        <option>Futsal</option>
+        <option>Vôlei</option>
+        <option>Basquete</option>
+        <option>Handebol</option>
+        <option>Atletismo</option>
+      </select>
+
+      <label>Turno:</label>
+      <br />
+      <input type="radio" name="turno" /> Manhã
+      <input type="radio" name="turno" /> Tarde
+      <input type="radio" name="turno" /> Noite
+
+      <label>Observações:</label>
+      <textarea></textarea>
+
+      <br />
+      <button type="submit">Enviar inscrição</button>
+    </form>
+
+    <hr />
+
+    <h1>Participantes já inscritos</h1>
+
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Modalidade</th>
+        <th>Turma</th>
+        <th>Status</th>
+      </tr>
+
+      <tr>
+        <td>Alessandro</td>
+        <td>Futsal</td>
+        <td>1INF1V</td>
+        <td>Confirmado</td>
+      </tr>
+
+      <tr>
+        <td>Raylan</td>
+        <td>Futsal</td>
+        <td>1INF1V</td>
+        <td>Pendente</td>
+      </tr>
+
+      <tr>
+        <td>José Cleudimarosvaldo</td>
+        <td>Basquete</td>
+        <td>3RP2M</td>
+        <td>Confirmado</td>
+      </tr>
+    </table>
+  </body>
+</html>
