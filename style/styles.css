@@ -53,3 +53,8 @@ img {
   height: 100px;
   border-radius: 50%;
 }
+
+#nav-sections ul {
+  list-style-type: none;
+  display: inline;
+}
