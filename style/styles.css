@@ -56,5 +56,8 @@ img {
 
 #nav-sections ul {
   list-style-type: none;
-  display: inline;
+}
+
+#nav-sections li {
+  display: inline-block;
 }
